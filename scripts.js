@@ -25,16 +25,15 @@
 const AANG_URL =
   "https://static.wikia.nocookie.net/avatar/images/a/ae/Aang_at_Jasmine_Dragon.png";
 const KATARA_URL =
-  "https://static.wikia.nocookie.net/avatar/images/3/38/Katara.png";
+  "https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/Katara_character.png/500px-Katara_character.png";
 const SOKKA_URL =
-  "https://static.wikia.nocookie.net/avatar/images/a/a3/Sokka.png";
+  "https://upload.wikimedia.org/wikipedia/en/c/cc/Sokka.png";
 const ZUKO_URL =
-  "https://static.wikia.nocookie.net/avatar/images/b/bd/Zuko.png";
+  "https://upload.wikimedia.org/wikipedia/en/3/3e/Prince_Zuko.jpg";
 const TOPH_URL =
-  "https://static.wikia.nocookie.net/avatar/images/6/66/Toph_Beifong.png";
+  "https://upload.wikimedia.org/wikipedia/en/4/46/Toph_Beifong.png";
 const IROH_URL =
-  "https://static.wikia.nocookie.net/avatar/images/1/10/Iroh_smiling.png";
-
+  "https://upload.wikimedia.org/wikipedia/en/b/bb/General_Iroh.jpg";
 
 // Using objects lets us group related information (name, nation, bending, role, quote, and image)
 // together instead of storing everything in separate arrays.
