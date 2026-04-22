@@ -35,9 +35,10 @@ const TOPH_URL =
 const IROH_URL =
   "https://static.wikia.nocookie.net/avatar/images/1/10/Iroh_smiling.png";
 
-// This is an array of objects. Each object stores all the data for one character.
-// Using objects lets us group related information (name, nation, bending, etc.)
+
+// Using objects lets us group related information (name, nation, bending, role, quote, and image)
 // together instead of storing everything in separate arrays.
+
 let characters = [
   {
     name: "Aang",
