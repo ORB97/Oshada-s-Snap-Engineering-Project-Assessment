@@ -18,9 +18,39 @@ body {
   color: white;
 }
 
+/* Controls: search bar and nation filter dropdown */
+.controls {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  padding: 14px;
+  background-color: #f0f0f0;
+  flex-wrap: wrap;
+}
+
+#search-input {
+  padding: 8px 14px;
+  font-size: 16px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  width: 220px;
+  font-family: "Verdana";
+}
+
+#nation-filter {
+  padding: 8px 12px;
+  font-size: 16px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  font-family: "Verdana";
+  cursor: pointer;
+}
+
 #card-container {
   display: flex;
   justify-content: center;
+  flex-wrap: wrap;
   margin: 20px;
 }
 
@@ -46,6 +76,16 @@ body {
 .card img {
   width: 100%;
   height: auto;
+}
+
+/* Quote shown at the bottom of each card */
+.character-quote {
+  font-style: italic;
+  font-size: 13px;
+  color: #999;
+  margin-top: 10px;
+  border-top: 1px solid #eee;
+  padding-top: 8px;
 }
 
 .footer {
