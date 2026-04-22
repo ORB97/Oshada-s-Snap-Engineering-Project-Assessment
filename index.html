@@ -30,6 +30,8 @@
     </div>
 
     <div id="card-container"></div>
+
+    <!-- Hidden template card — the age-btn is included here so every cloned card gets one -->
     <div class="card" style="display: none">
       <div class="card-content">
         <h2>Character Name</h2>
@@ -40,8 +42,10 @@
           <li>Role</li>
         </ul>
         <p class="character-quote"></p>
+        <button class="age-btn">Show in Movie</button>
       </div>
     </div>
+
     <div class="footer">
       <button onclick="quoteAlert()">Get A Quote!</button>
       <button onclick="removeLastCard()">Remove A Card!</button>
