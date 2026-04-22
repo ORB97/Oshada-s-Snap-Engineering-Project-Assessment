@@ -88,6 +88,27 @@ body {
   padding-top: 8px;
 }
 
+/* Age toggle button inside each card */
+.age-btn {
+  display: block;
+  width: 100%;
+  margin-top: 10px;
+  padding-left: 0;
+  padding-right: 0;
+  height: 36px;
+  background-color: #888;
+  border: none;
+  border-radius: 8px;
+  color: white;
+  font-size: 14px;
+  cursor: pointer;
+  font-family: "Verdana";
+}
+
+.age-btn:hover {
+  background-color: #555;
+}
+
 .footer {
   display: flex;
   justify-content: center;
