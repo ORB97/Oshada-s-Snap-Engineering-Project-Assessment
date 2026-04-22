@@ -1,26 +1,45 @@
 <!doctype html>
 <html>
   <head>
-    <title>LA TV Shows | Home</title>
-    <meta name="description" content="A Catalog of Shows Set in Los Angeles" />
+    <title>Avatar: The Last Airbender | Character Catalog</title>
+    <meta name="description" content="A Catalog of Avatar: The Last Airbender Characters" />
     <link rel="stylesheet" href="style.css" />
-    <script type="text/javascript" src="scripts.js"></script>
+    <script type="text/javascript" src="scripts.js" defer></script>
   </head>
 
   <body>
     <header class="main-header">
-      <h1 class="title">LA TV Shows</h1>
+      <h1 class="title">Avatar Characters</h1>
     </header>
+
+    <!-- Search and Filter controls -->
+    <div class="controls">
+      <input
+        type="text"
+        id="search-input"
+        placeholder="Search characters..."
+        oninput="handleSearch()"
+      />
+      <select id="nation-filter" onchange="handleFilter()">
+        <option value="All">All Nations</option>
+        <option value="Water Tribe">Water Tribe</option>
+        <option value="Earth Kingdom">Earth Kingdom</option>
+        <option value="Fire Nation">Fire Nation</option>
+        <option value="Air Nomads">Air Nomads</option>
+      </select>
+    </div>
+
     <div id="card-container"></div>
     <div class="card" style="display: none">
       <div class="card-content">
-        <h2>TV Show Title</h2>
-        <img src="" alt="TV Show Poster" />
+        <h2>Character Name</h2>
+        <img src="" alt="Character Portrait" />
         <ul>
-          <li>Bullet Point 1</li>
-          <li>Bullet Point 2</li>
-          <li>Bullet Point 3</li>
+          <li>Nation</li>
+          <li>Bending</li>
+          <li>Role</li>
         </ul>
+        <p class="character-quote"></p>
       </div>
     </div>
     <div class="footer">
